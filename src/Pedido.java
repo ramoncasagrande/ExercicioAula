@@ -10,26 +10,16 @@ public class Pedido {
         this.valorProduto = valorProduto;
         this.quantidade = quantidade;
     }
-
     public void calcularTotal() {
         total = valorProduto * quantidade;
     }
-
     public double getTotal() {
         return total;
     }
-
     public String getNome() {
         return nomeProduto;
     }
-
     public void setTotal(double total) {
         this.total = total;
     }
-
-    
-
-    
-
-
 }
